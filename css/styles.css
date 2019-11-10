@@ -1,0 +1,568 @@
+/* GENERAL STYLES */
+/* COMMON STYLES */
+/* HEADER */
+/* MAIN */
+/* FOOTER */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Regular.ttf");
+}
+
+/* GENERAL STYLES */
+body {
+  font-family: "Nunito", Tahoma, Verdana, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.625rem;
+}
+
+p {
+  font-size: 1.3125rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* COMMON STYLES */
+.wrapper {
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  background: rgb(247, 253, 254);
+}
+
+.header__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.125rem 1rem;
+}
+
+.header__logo {
+  display: block;
+  order: 1;
+  width: 6.4rem;
+  line-height: 0;
+}
+
+.navigation {
+  flex-basis: 100%;
+  order: 3;
+  margin-top: 0.4rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  padding: 1.25rem 0;
+  color: rgb(130, 134, 143);
+  font-weight: 900;
+  font-size: 0.9rem;
+  border-top: 1px solid rgb(219, 224, 227);
+}
+
+.header__sign-in {
+  order: 2;
+  padding: 0.7rem 1.4rem;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  border-radius: 0.9rem;
+  background: #0ebfdd;
+}
+
+/* MAIN */
+.mission {
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.mission__content {
+  padding: 2rem 2.25rem 5rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.mission__title {
+  margin-bottom: 1rem;
+  padding: 0rem 2rem;
+  line-height: 1.25;
+}
+
+.about__content {
+  padding: 1.5rem 2.25rem 2.5rem;
+  text-align: center;
+}
+
+.about__title {
+  margin-bottom: 1.25rem;
+  color: rgb(14, 191, 221);
+}
+
+.team {
+  background: #0ebfdd;
+}
+
+.team__content {
+  padding: 1.5rem 2.5rem 1.2rem;
+  text-align: center;
+}
+
+.team__title {
+  margin-bottom: 2.5rem;
+  color: white;
+}
+
+.team__persons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.team__person {
+  margin-bottom: 1rem;
+}
+
+.person__picture {
+  margin-bottom: 0.4rem;
+  border-radius: 50%;
+}
+
+.person__name {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.person__role {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.team__work-with-us {
+  display: block;
+  color: white;
+  font-weight: 900;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.newsletter {
+  background: #f9f5ed;
+}
+
+.newsletter__content {
+  padding: 1.5rem 2.25rem 1.25rem;
+  text-align: center;
+}
+
+.newsletter__title {
+  margin-bottom: 1.2rem;
+  color: #0ebfdd;
+}
+
+.newsletter p {
+  margin-bottom: 1.3rem;
+}
+
+.form__email {
+  position: relative;
+  display: inline-block;
+}
+
+.form__input {
+  width: 13.75rem;
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+  border: 1px solid #959595;
+  border-radius: 0.5rem;
+}
+
+.form__icon {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  display: block;
+  width: 1.2rem;
+  height: 0.9rem;
+  transform: translateY(-50%);
+}
+
+::placeholder {
+  color: rgb(211, 211, 211);
+  font-weight: 900;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+:-ms-input-placeholder {
+  color: rgb(211, 211, 211);
+  font-weight: 900;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+::-ms-input-placeholder {
+  color: rgb(211, 211, 211);
+  font-weight: 900;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* FOOTER */
+.footer {
+  background: rgb(69, 73, 77);
+}
+
+.footer__content {
+  padding: 1rem 1rem 0rem;
+  text-align: center;
+}
+
+.footer__links {
+  color: rgb(215, 222, 228);
+}
+
+.links__item {
+  padding: 1.3rem 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.footer__contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.4rem 0.8rem;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.25rem;
+  height: 4.25rem;
+  margin: 0 0.5rem;
+  padding: 0;
+  line-height: 0;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.contacts__icon {
+  width: 45%;
+  height: 45%;
+}
+
+.footer__copyright {
+  padding: 1.5rem 0;
+  color: rgb(115, 118, 122);
+  text-align: center;
+  border-top: 1px solid rgb(90, 94, 98);
+}
+
+.copyright__item {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.copyright__item:last-child {
+  margin-bottom: 0;
+}
+
+/* MEDIA QUERIES */
+@media all and (min-width: 480px) {
+  .header__content {
+    padding: 0.5rem 1.4rem 0.125rem;
+  }
+
+  .mission__content {
+    padding: 8.25rem 3rem 5rem;
+  }
+
+  .mission__title {
+    padding: 0;
+  }
+
+  .about__content {
+    padding: 1.5rem 3rem 2.5rem;
+  }
+
+  .team__content {
+    padding: 1.5rem 4rem 1rem;
+  }
+
+  .team__persons {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .team__person:last-child {
+    flex-basis: 100%;
+  }
+
+  .newsletter__content {
+    padding: 1.5rem 3rem 1.5em;
+    text-align: center;
+  }
+
+  .footer__content {
+    padding: 1rem 1.5rem 0rem;
+    text-align: center;
+  }
+
+  .links__item:last-child {
+    padding: 1.3rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .header__content {
+    padding: 0.2rem 2.5rem 0.2rem 2rem;
+  }
+
+  .header__logo {
+    width: 5rem;
+  }
+
+  .navigation {
+    flex-basis: auto;
+    flex-grow: 1;
+    order: 2;
+    margin: 0;
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .menu__item {
+    margin-right: 1.5rem;
+    border: none;
+  }
+
+  .main {
+    padding-top: 3.8rem;
+  }
+
+  .mission__content {
+    padding: 9.5rem 5rem 5rem;
+  }
+
+  .about__content {
+    padding: 1.5rem 5rem 2.5rem;
+  }
+
+  .team__content {
+    padding: 1.5rem 8rem 1rem;
+  }
+
+  .newsletter__content {
+    padding: 1.5rem 5rem 1.5rem;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1.9rem 0rem;
+  }
+
+  .footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: flex-end;
+    width: 220px;
+  }
+
+  .links__item {
+    font-size: 0.8rem;
+  }
+
+  .links__item:last-child {
+    padding: 0;
+  }
+
+  .footer__contacts {
+    justify-content: space-between;
+    width: 165px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacts__link {
+    width: 2.875rem;
+    height: 2.875rem;
+    margin: 0;
+  }
+
+  .contacts__icon {
+    width: 40%;
+  }
+
+  .footer__copyright {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0.85rem;
+    padding: 1rem 0rem;
+  }
+
+  .copyright__item {
+    margin: 0;
+    padding: 0 0.9rem;
+    font-size: 0.75rem;
+    border-right: 1px solid;
+  }
+
+  .copyright__item:last-child {
+    padding-right: 0;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 2.75rem;
+  }
+
+  p {
+    font-size: 1.275rem;
+  }
+
+  .header__content {
+    padding: 0.2rem 3rem 0.2rem;
+  }
+
+  .mission {
+    background-position: center top;
+  }
+
+  .mission__content {
+    padding: 4.7rem 7rem 5.2rem;
+  }
+
+  .about__content {
+    padding: 1.5rem 7rem 2.5rem;
+  }
+
+  .team__content {
+    padding: 1.5rem 7rem 1rem;
+  }
+
+  .team__person:last-child {
+    flex-basis: auto;
+  }
+
+  .newsletter__content {
+    padding: 1.5rem 6rem 1.5rem;
+  }
+
+  .footer__content {
+    padding: 0.8rem 2.4rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .about__content {
+    padding: 1.5rem 7rem 2.5rem;
+  }
+
+  .team__content {
+    padding: 1.5rem 8rem 1rem;
+  }
+
+  .newsletter__content {
+    padding: 1.5rem 7rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__content {
+    padding: 0.2rem 2rem 0.2rem;
+  }
+
+  .mission__content {
+    padding: 18.5rem 5rem 5.5rem;
+  }
+
+  .about__content {
+    padding: 3.75rem 5rem 5rem;
+  }
+
+  .team__content {
+    padding: 4rem 8.5rem 3.5rem;
+  }
+
+  .team__title {
+    margin-bottom: 6.5rem;
+  }
+
+  .team__persons {
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .newsletter__content {
+    padding: 4rem 5rem;
+  }
+
+  .footer__content {
+    padding: 0.7rem 1.2rem;
+  }
+
+  .footer__links {
+    width: 290px;
+  }
+}
