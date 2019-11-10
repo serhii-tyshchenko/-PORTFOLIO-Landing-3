@@ -4,3 +4,5 @@
 
 - fully responsive;
 - BEM methodology used.
+
+Live demp here: https://serhii-tyshchenko.github.io/-HTML-CSS-Company-Portfolio-Page/
