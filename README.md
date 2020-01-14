@@ -1,8 +1,10 @@
-## Simple Portfolio page template
+## Portfolio Page Template
 
-#### Features:
+Live demo: https://serhii-tyshchenko.github.io/-HTML-CSS-Company-Portfolio-Page/
+
+## Features:
 
 - fully responsive;
-- BEM methodology used.
+- BEM methodology.
 
-Live demo here: https://serhii-tyshchenko.github.io/-HTML-CSS-Company-Portfolio-Page/
+
